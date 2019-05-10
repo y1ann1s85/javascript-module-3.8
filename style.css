@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0.5%;
+    margin: 0.5%
+}
+
+body {
+    background: lightblue;
+    padding: 0.5%;
+}
+
+
+/* #content {
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-around;
+} */
+
+#profile {
+    display: flex;
+    justify-content: space-around;
+}
+
+#avatar {
+    border: 2px solid transparent;
+    width: 30%;
+    margin: 10%;
+    padding: 0;
+}
+
+#name {
+    border: 2px solid black;
+    width: 50%;
+    margin: 10%;
+    padding: 0;
+}
+
+#list {
+    border: 2px solid black;
+    width: 80%;
+    margin: 10%;
+}
+
+img {
+    width: 250px;
+}
