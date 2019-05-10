@@ -1,2 +1,3 @@
 # javascript-module-3.8
-SPA (Single Page Application)
+
+https://github.com/SocialHackersCodeSchool/JavaScript3/blob/master/Week8/MAKEME.md
