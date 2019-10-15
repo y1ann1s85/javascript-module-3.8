@@ -1,46 +1,67 @@
 * {
-    box-sizing: border-box;
-    padding: 0.5%;
-    margin: 0.5%
+    color: #343a40;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 body {
-    background: lightblue;
+    background: white;
     padding: 0.5%;
 }
 
+img {
+    width: 75%;
+}
 
-/* #content {
-    border: 1px solid transparent;
-    display: flex;
-    justify-content: space-around;
-} */
+#github {
+    width: 10%;
+    padding: 1.5%;
+}
+
+#searchButton {
+    background-color: transparent;
+    color: white;
+    border: transparent;
+}
+
+#searchButton:hover {
+    background-color: white;
+    color: black;
+}
+
+#searchButton:checked {
+    border: transparent;
+}
 
 #profile {
-    display: flex;
-    justify-content: space-around;
+    padding-top: 2.5%;
 }
 
-#avatar {
-    border: 2px solid transparent;
-    width: 30%;
-    margin: 10%;
-    padding: 0;
-}
-
-#name {
-    border: 2px solid black;
-    width: 50%;
-    margin: 10%;
-    padding: 0;
+#repo {
+    padding-top: 2.5%;
 }
 
 #list {
-    border: 2px solid black;
-    width: 80%;
-    margin: 10%;
+    margin-top: 2.5%;
+    font-weight: bold;
 }
 
-img {
-    width: 250px;
+a:link {
+    color: #343a40;
+    text-decoration: none;
 }
+  
+a:visited {
+    color: #343a40;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: lightslategray;
+    text-decoration: none;
+}
+  
+a:active {
+    color: #343a40;
+    text-decoration: none;
+}
+  
